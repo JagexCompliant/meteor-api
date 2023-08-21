@@ -62,7 +62,8 @@ allprojects{
 
 
 tasks.withType<JavaCompile> {
-ap}
+    options.encoding = "UTF-8"
+}
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().all {
     kotlinOptions {
