@@ -19,6 +19,7 @@ repositories {
 
 val sourcesJar by tasks.creating(Jar::class) {
     dependsOn(JavaPlugin.CLASSES_TASK_NAME)
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveClassifier.set("sources")
     from(sourceSets["main"].allSource)
 }

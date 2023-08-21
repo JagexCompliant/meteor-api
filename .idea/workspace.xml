@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1293eab3-ff75-466a-adf7-8c09c2c880e8" name="Changes" comment="api remove stuff and fix gradle files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +224,8 @@
       <workItem from="1690594134495" duration="560000" />
       <workItem from="1690752280585" duration="985000" />
       <workItem from="1691076821153" duration="559000" />
-      <workItem from="1692648824694" duration="2762000" />
+      <workItem from="1692648824694" duration="5443000" />
+      <workItem from="1692660077321" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="Api: initial commit">
       <created>1683864828845</created>
@@ -247,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692650739794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="api remove stuff and fix gradle files">
+      <option name="closed" value="true" />
+      <created>1692651745616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692651745616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
