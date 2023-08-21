@@ -11,13 +11,12 @@ group = "api"
 version = "9.9.9"
 
 repositories {
-
     mavenCentral()
     mavenLocal()
     maven(url = uri("https://repo.runelite.net"))
     maven(url = uri("https://jitpack.io"))
-
 }
+
 val sourcesJar by tasks.creating(Jar::class) {
     dependsOn(JavaPlugin.CLASSES_TASK_NAME)
     archiveClassifier.set("sources")
@@ -63,12 +62,11 @@ allprojects{
 
 
 tasks.withType<JavaCompile> {
-    options.encoding = "UTF-8"
-}
+ap}
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().all {
     kotlinOptions {
-        languageVersion = "2.0"
+        languageVersion = "1.9"
         jvmTarget = "17"
         freeCompilerArgs = listOf(
             "-Xallow-any-scripts-in-source-roots",

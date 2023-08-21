@@ -11,17 +11,20 @@ repositories {
 }
 
 dependencies {
-    implementation(project(":api"))
-    implementation(project(":logger"))
+    with(projects) {
+        implementation(api)
+        implementation(logger)
+    }
 
-    annotationProcessor(libs.lombok)
-    compileOnly(libs.lombok)
-    implementation(libs.gson)
-    implementation(libs.guava)
-    implementation(libs.okhttp)
-    implementation(libs.commons.csv)
+    with(libs) {
+        annotationProcessor(lombok)
+        compileOnly(lombok)
+        implementation(gson)
+        implementation(guava)
+        implementation(okhttp)
+        implementation(commons.csv)
+    }
 }
-
 tasks.test {
     useJUnitPlatform()
 }
